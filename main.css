@@ -1,0 +1,61 @@
+body{
+
+}
+figure img{
+	box-shadow: 2px 2px 2px 2px green;
+}
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+h1{
+	text-shadow: 3px 3px 5px red;
+	
+
+}
+p{
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 6px;
+	height: 120px;
+	background-image: radial-gradient(red,yellow,green);
+}
+section{
+	width: 100%;
+	height: auto;
+	background-color: orange;
+	background-image: linear-gradient(red,yellow);
+
+}
+article{
+	border: 2px solid pink;
+	margin: 5px;
+	box-shadow: 10px 10px gray;
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+input[type=text] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding-left: 40px;
+
+  }
+  input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=text]{
+ -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type="text"]:focus{
+	width: 100%;
+}
+
